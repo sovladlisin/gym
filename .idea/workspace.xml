@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8f69d3-288c-4601-943f-f59d88a7c96c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/myApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/news.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myApp/static/myApp/news.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -269,12 +269,12 @@
       <workItem from="1545121334158" duration="266000" />
       <workItem from="1545121653469" duration="926000" />
       <workItem from="1545122661447" duration="666000" />
-      <workItem from="1545123814549" duration="8879000" />
+      <workItem from="1545123814549" duration="9227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10737000" />
+    <option name="totallyTimeSpent" value="11085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -372,10 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/menu.js">
+    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -391,17 +391,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/base.css">
+    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/static/myApp/news.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

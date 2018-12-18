@@ -13,9 +13,13 @@
 .news:hover div.title p{
     color: white;
 }
+.news:hover div.title{
+    margin-left: -15px;
+}
 .news div.title{
     width: 190px;
     height: 30px;
+    transition: 0.5s;
 }
 .news div.title p{
     width: 160px;
