@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8f69d3-288c-4601-943f-f59d88a7c96c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/myApp/static/myApp/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/myApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/myApp/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="296">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/static/myApp/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="181" column="18" lean-forward="true" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myApp/static/myApp/news.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -99,8 +107,8 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -118,12 +126,13 @@
         <option value="$PROJECT_DIR$/myApp/static/myApp/menu.js" />
         <option value="$PROJECT_DIR$/templates/myApp/home.html" />
         <option value="$PROJECT_DIR$/myApp/static/myApp/base.css" />
+        <option value="$PROJECT_DIR$/myApp/static/myApp/news.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="531" />
-    <option name="y" value="117" />
+    <option name="x" value="733" />
+    <option name="y" value="76" />
     <option name="width" value="1302" />
     <option name="height" value="798" />
   </component>
@@ -260,12 +269,12 @@
       <workItem from="1545121334158" duration="266000" />
       <workItem from="1545121653469" duration="926000" />
       <workItem from="1545122661447" duration="666000" />
-      <workItem from="1545123814549" duration="5991000" />
+      <workItem from="1545123814549" duration="8879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7849000" />
+    <option name="totallyTimeSpent" value="10737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -372,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/myApp/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="296">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -384,8 +393,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/static/myApp/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="181" column="18" lean-forward="true" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
