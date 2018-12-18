@@ -1,0 +1,46 @@
+.action{
+    width: 530px;
+    background: white;
+    margin-top: 10px;
+    float: left;
+}
+.action div.title{
+    width: 530px;
+    height: 60px;
+    background-color: white;
+    border: solid;
+    border-width: 0 0 3px 0;
+    border-bottom-color: #989898;
+    float: left;
+}
+.action div.title p{
+    width: 530px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14pt;
+    text-align: center;
+}
+.action div.content{
+    width: 510px;
+    padding: 20px 10px ;
+     float: left;
+}
+.action div.content p{
+    width: 510px;
+}
+.action div.bottom{
+    width: 520px;
+    height: 30px;
+    background-color: #d6d6d6;
+    float: left;
+    padding-left: 10px;
+}
+.action div.bottom p{
+    width: 520px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 11pt;
+    text-align: left;
+}
