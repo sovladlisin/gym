@@ -1,9 +1,197 @@
-.logo{
-    width: 500px;
-    height: 500px;
-    background: url("images/logo.png");
+body{
+    background: rgb(117,190,233);
+
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.head div.logo{
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    background: url("images/logo.png") center center;
+    background-size: cover;
+    float: left;
+}
+body{
+    background: url("images/background.png") no-repeat fixed;
     -webkit-background-size: cover;
     background-size: cover;
 
+}
+.head{
+    height: 160px;
+    width: 950px;
+    margin: 30px auto;
+    background: white;
+    pointer-events: none;
 
+}
+.title{
+     height: 160px;
+     width: 680px;
+    float: left;
+}
+.strip{
+     background: url("images/strip.png");
+    background-size: cover;
+    width: 100px;
+    height: 160px;
+    float: right;
+}
+.head div.line-top{
+    width: 670px;
+    height: 25px;
+    margin: 40px 0px 0 10px;
+    float: left;
+}
+.head div.line-bottom{
+    width: 670px;
+    height: 60px;
+    margin: 0 0 10px 10px;
+    float: left;
+}
+.head div.line-top p{
+    width: 670px;
+    height: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+.head div.line-bottom p{
+    width: 670px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40pt;
+    text-align: left;
+}
+.menu-button{
+    background: url("images/menuButton.png");
+    background-size: cover;
+    width: 60px;
+    height: 30px;
+    margin: -45px auto 0 auto;
+    cursor: pointer;
+    z-index: 999;
+    transition: 1s;
+}
+/*.menu-button:hover {*/
+    /*-webkit-transform: rotate(180deg);*/
+    /*-moz-transform: rotate(180deg);*/
+    /*transform: rotate(180deg);*/
+/*}*/
+.menu{
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+    background: white;
+    display: none;
+}
+.side{
+    float: left;
+    margin: 10px 0;
+    width: 200px;
+    overflow: auto;
+
+}
+.center{
+    float: left;
+    margin: 10px;
+    width: 530px;
+    overflow: auto;
+
+}
+.container{
+    width: 950px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.side div.title{
+    float: left;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.side div.title p{
+    width: 200px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.center div.title{
+    float: left;
+    width: 530px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+}
+.center div.title p{
+    width: 530px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.side div.blank{
+    float: left;
+    width: 200px;
+    margin: 10px 0 0 0;
+    height: 400px;
+    background-color: white;
+}
+.center div.blank{
+    margin: 10px 0 0 0;
+    float: left;
+    width: 530px;
+    height: 400px;
+    background-color: white;
+}
+.footer{
+    width: 950px;
+    margin: 0px auto 10px auto;
+    height: 50px;
+    background-color: white;
 }
