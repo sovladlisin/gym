@@ -7,10 +7,10 @@
 .action div.title{
     width: 530px;
     height: 60px;
-    background-color: white;
+    background-color: #fdfdfe;
     border: solid;
     border-width: 0 0 3px 0;
-    border-bottom-color: #989898;
+    border-bottom-color: #707070;
     float: left;
 }
 .action div.title p{
@@ -30,9 +30,12 @@
     width: 510px;
 }
 .action div.bottom{
+    border: solid;
+    border-width: 1px 0 0px 0;
+    border-top-color: #858585;
     width: 520px;
     height: 30px;
-    background-color: #d6d6d6;
+    background-color: #ffffff;
     float: left;
     padding-left: 10px;
 }
