@@ -52,6 +52,7 @@ table {
     background: url("images/logo.png") center center;
     background-size: cover;
     float: left;
+    transition: 2s;
 }
 body{
     background: url("images/background.png") no-repeat fixed;
@@ -64,8 +65,45 @@ body{
     width: 950px;
     margin: 30px auto;
     background: white;
-    pointer-events: none;
+    transition: 2s;
 
+}
+.head-cover{
+    height: 0px;
+    width: 950px;
+    margin: -160px auto;
+    background: white;
+    transition: 2s;
+    position: relative;
+    opacity: 0;
+
+}
+.head:hover{
+    background: url("images/gymback2.jpg") center center no-repeat;
+    background-size: cover;
+    /*color: white;*/
+    height: 200px;
+}
+.head:hover .strip{
+    width: 0;
+}
+.head:hover div.logo{
+    width: 0;
+    opacity: 0;
+}
+.head:hover .head-cover{
+    height: 160px;
+    opacity: 1;
+}
+.head:hover div.line-top{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 10px;
+    margin-left: 0px;
+}
+.head:hover div.line-bottom{
+    background-color: rgba(255, 255, 255, 0.7);
+     padding-left: 10px;
+    margin-left: 0;
 }
 .title{
      height: 160px;
@@ -78,18 +116,21 @@ body{
     width: 100px;
     height: 160px;
     float: right;
+    transition: 2s;
 }
 .head div.line-top{
     width: 670px;
     height: 25px;
     margin: 40px 0px 0 10px;
     float: left;
+    transition: 2s;
 }
 .head div.line-bottom{
     width: 670px;
     height: 60px;
     margin: 0 0 10px 10px;
     float: left;
+    transition: 2s;
 }
 .head div.line-top p{
     width: 670px;
@@ -115,6 +156,7 @@ body{
     cursor: pointer;
     z-index: 999;
     transition: 1s;
+    position: relative;
 }
 /*.menu-button:hover {*/
     /*-webkit-transform: rotate(180deg);*/
