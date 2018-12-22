@@ -155,7 +155,7 @@ body{
     background-size: cover;
     width: 60px;
     height: 30px;
-    margin: -45px auto 0 auto;
+    margin: -50px auto 0 auto;
     cursor: pointer;
     z-index: 999;
     transition: 1s;
@@ -166,13 +166,7 @@ body{
     /*-moz-transform: rotate(180deg);*/
     /*transform: rotate(180deg);*/
 /*}*/
-.menu{
-    width: 950px;
-    height: 100px;
-    margin: 0 auto;
-    background: white;
-    display: none;
-}
+
 .side{
     float: left;
     margin: 10px 0;

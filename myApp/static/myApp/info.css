@@ -1,0 +1,39 @@
+.info{
+    width: 200px;
+    padding: 0;
+    float: left;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.info:hover{
+   background-color: rgb(225,95,52);
+    color: white;
+}
+.info:hover div.n-title p{
+    color: white;
+    font-size: 12pt;
+    height: 55px;
+
+}
+.info:hover div.n-title{
+    height: 65px;
+}
+.info div.n-title{
+    width: 200px;
+    height: 40px;
+    transition: 0.5s;
+
+}
+.info div.n-title p{
+    width: 185px;
+    font-size: 8pt;
+    font-style: italic;
+    color: black;
+    padding: 5px 5px 5px 10px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    transition: 0.5s;
+}

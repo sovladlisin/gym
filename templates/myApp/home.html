@@ -2,25 +2,27 @@
 <html lang="en">
 <head>
     {%  load static %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="{% static 'myApp/base.css' %}">
-           <link rel="stylesheet" type="text/css" href="{% static 'myApp/news.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/news.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/loader.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'myApp/actions.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/actions.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/info.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/menu.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-        <script src= "{% static 'myApp/menu.js' %}"></script>
-         <script src= "{% static 'myApp/preload.js' %}"></script>
+    <script src= "{% static 'myApp/menu.js' %}"></script>
+    <script src= "{% static 'myApp/preload.js' %}"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<div class="spinner">
-  <div class="rect1"></div>
-  <div class="rect2"></div>
-  <div class="rect3"></div>
-  <div class="rect4"></div>
-  <div class="rect5"></div>
-</div>
+{#<div class="spinner">#}
+{#  <div class="rect1"></div>#}
+{#  <div class="rect2"></div>#}
+{#  <div class="rect3"></div>#}
+{#  <div class="rect4"></div>#}
+{#  <div class="rect5"></div>#}
+{#</div>#}
 
 <div class="head">
     <div class="logo"></div>
@@ -34,7 +36,19 @@
 <div class="menu-button">
 
 </div>
-<div class="menu"></div>
+<div class="menu">
+    <div class="menu-item"><p>Наша Гимназия</p></div>
+    <div class="menu-item"><p>ЕГЭ и ГИА</p></div>
+    <div class="menu-item"><p>Прием в 1 класс</p></div>
+    <div class="menu-item"><p>День за днем</p></div>
+    <div class="menu-item"><p>РИП-Инко</p></div>
+    <div class="menu-item"><p>Гимназисты</p></div>
+    <div class="menu-item"><p>Олимпиады</p></div>
+    <div class="menu-item"><p>Мы — творцы</p></div>
+    <div class="menu-item"><p>Традиции</p></div>
+    <div class="menu-item"><p>Омский Центр Оригами</p></div>
+
+</div>
 
 <div class="container">
     <div class="side">
@@ -95,7 +109,35 @@
     </div>
     <div class="side">
         <div class="title" style="background-color: #E15F34; border-color: #863026"><p>Информация</p></div>
-        <div class="blank"></div>
+        <div class="blank">
+            <div class="info">
+                <div class="n-title"><p>Сведения об образовательной организации</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Из истории гимназии</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Награды и достижения</p> </div>
+            </div>
+            <div class="info">
+                <div class="n-title"><p>Наши герб и гимн</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Виртуальное путешествие по гимназии</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Школьная газета</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Телефоны доверия и служб социально-психологической помощи</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Вакантные места для приема (перевода)</p> </div>
+            </div>
+             <div class="info">
+                <div class="n-title"><p>Архив событий</p> </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="footer">
