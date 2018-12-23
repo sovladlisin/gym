@@ -1,0 +1,30 @@
+.data{
+    width: 740px;
+    float: left;
+    margin: 10px 10px 0 0 ;
+}
+.data div.title{
+    float: left;
+    width: 740px;
+    height: 30px;
+    border: solid;
+    border-width: 0 0 3px 0;
+    border-bottom-color: rgb(35,122,127);
+    font-weight: bold;
+    background-color: #20967C;
+}
+.data div.title p{
+    width: 740px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+        color: white;
+}
+.data div.blank{
+    width: 740px;
+    height: 400px;
+    margin: 10px 0 ;
+    float: left;
+    background-color: white;
+}

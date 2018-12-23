@@ -14,14 +14,19 @@
     cursor: pointer;
 }
 .menu-item:hover{
-    background-color: #a2a2a2;
-
+    background-color: #20967C;
 }
-.menu-item p{
+.menu-item:hover a{
+    color: white;
+    font-size: 14pt;
+}
+.menu-item a{
     width: 190px;
     height: 50px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     color: black;
+    text-decoration: none;
+    transition: 0.5s;
 }

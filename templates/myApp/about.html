@@ -1,0 +1,31 @@
+{% extends 'myApp/base.html' %}
+
+
+
+{% block data %}
+    <div class="data">
+    <div class="title"><p>Содержание</p></div>
+    <div class="blank"></div>
+    </div>
+{% endblock %}
+
+
+
+{% block nav %}
+    <div class="info">
+        <div class="n-title"><a href="{% url 'myApp:home' %}">Ссылка 1</a></div>
+    </div>
+    <div class="info">
+        <div class="n-title"><a href="{% url 'myApp:home' %}">Ссылка 2</a></div>
+    </div>
+    <div class="info">
+        <div class="n-title"><a href="{% url 'myApp:home' %}">Ссылка 3</a></div>
+    </div>
+    <div class="info">
+       <div class="n-title"><a href="{% url 'myApp:home' %}">Ссылка 4</a></div>
+    </div>
+    <div class="info">
+        <div class="n-title"><a href="{% url 'myApp:home' %}">Ссылка 5</a></div>
+    </div>
+
+{% endblock %}

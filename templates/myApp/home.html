@@ -1,56 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {%  load static %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/base.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/news.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/loader.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/actions.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/info.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'myApp/menu.css' %}">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-    <link rel="icon" href="{% static 'myApp/images/logo.png' %}">
-    <script src= "{% static 'myApp/menu.js' %}"></script>
-    <script src= "{% static 'myApp/preload.js' %}"></script>
-    <meta charset="UTF-8">
-    <title>БОУ г. Омска Гимназия №139</title>
-</head>
-<body>
-{#<div class="spinner">#}
-{#  <div class="rect1"></div>#}
-{#  <div class="rect2"></div>#}
-{#  <div class="rect3"></div>#}
-{#  <div class="rect4"></div>#}
-{#  <div class="rect5"></div>#}
-{#</div>#}
-<div class="head">
-    <div class="logo"></div>
-    <div class="title">
-        <div class="line-top"><p>Бюджетное образовательное учреждение г. Омска</p></div>
-        <div class="line-bottom"><p>“Гимназия № 139”</p></div>
-    </div>
-    <div class="strip"></div>
-</div>
-{#<div class="head-cover"></div>#}
-<div class="menu-button">
-
-</div>
-<div class="menu">
-    <div class="menu-item"><p>Наша Гимназия</p></div>
-    <div class="menu-item"><p>ЕГЭ и ГИА</p></div>
-    <div class="menu-item"><p>Прием в 1 класс</p></div>
-    <div class="menu-item"><p>День за днем</p></div>
-    <div class="menu-item"><p>РИП-Инко</p></div>
-    <div class="menu-item"><p>Гимназисты</p></div>
-    <div class="menu-item"><p>Олимпиады</p></div>
-    <div class="menu-item"><p>Мы — творцы</p></div>
-    <div class="menu-item"><p>Традиции</p></div>
-    <div class="menu-item"><p>Омский Центр Оригами</p></div>
-
-</div>
-
-<div class="container">
+{% extends 'myApp/base.html' %}
+{% block data %}
     <div class="side">
         <div class="title" style="background-color: #20967C; border-color: rgb(35,122,127)"><p>Лента новостей</p></div>
         <div class="blank">
@@ -107,41 +56,33 @@
             <div class="bottom"><p>Дата публикации: 11/12/2018</p></div>
         </div>
     </div>
-    <div class="side">
-        <div class="title" style="background-color: #E15F34; border-color: #863026"><p>Навигация</p></div>
-        <div class="blank">
+{% endblock %}
+{% block nav %}
             <div class="info">
-                <div class="n-title"><p>Сведения об образовательной организации</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Сведения об образовательной организации</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Из истории гимназии</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Из истории гимназии</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Награды и достижения</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Награды и достижения</a> </div>
             </div>
             <div class="info">
-                <div class="n-title"><p>Наши герб и гимн</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Наши герб и гимн</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Виртуальное путешествие по гимназии</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Виртуальное путешествие по гимназии</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Школьная газета</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Школьная газета</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Телефоны доверия и служб социально-психологической помощи</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Телефоны доверия и служб социально-психологической помощи</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Вакантные места для приема (перевода)</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Вакантные места для приема (перевода)</a> </div>
             </div>
              <div class="info">
-                <div class="n-title"><p>Архив событий</p> </div>
+                <div class="n-title"><a href="{% url 'myApp:about' %}">Архив событий</a> </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="footer">
-
-</div>
-</body>
-</html>
+{% endblock %}
