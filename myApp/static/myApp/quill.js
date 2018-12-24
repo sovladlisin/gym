@@ -40,8 +40,10 @@ var toolbarOptions = [
              $('.main-quill').css("display","block");
          });
           $('div.main-quill').click(function(){
-             $('.main-quill').css("display","none");
-            $('.main-quill').slideUp();
+               if( $(event.target).is('.main-quill')) {
+                   $('.main-quill').css("display", "none");
+                   $('.main-quill').slideUp();
+               }
          });
  $('.qpress').click(function(){
 

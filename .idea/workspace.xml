@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8f69d3-288c-4601-943f-f59d88a7c96c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/myApp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/myApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/static/myApp/quill.js" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/static/myApp/quill.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myApp/static/myApp/quill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="176">
+              <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -62,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gym/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="92">
+              <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -80,7 +72,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -155,8 +147,8 @@
         <option value="$PROJECT_DIR$/myApp/static/myApp/leg.css" />
         <option value="$PROJECT_DIR$/myApp/static/myApp/page.css" />
         <option value="$PROJECT_DIR$/myApp/static/myApp/quill.css" />
-        <option value="$PROJECT_DIR$/myApp/static/myApp/quill.js" />
         <option value="$PROJECT_DIR$/gym/settings.py" />
+        <option value="$PROJECT_DIR$/myApp/static/myApp/quill.js" />
       </list>
     </option>
   </component>
@@ -310,12 +302,12 @@
       <workItem from="1545123814549" duration="18577000" />
       <workItem from="1545452834870" duration="13493000" />
       <workItem from="1545634446985" duration="12502000" />
-      <workItem from="1545657363026" duration="360000" />
+      <workItem from="1545657363026" duration="796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46790000" />
+    <option name="totallyTimeSpent" value="47226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -326,7 +318,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42095914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42095914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,20 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/quill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91" />
@@ -568,6 +546,20 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/static/myApp/quill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
         </state>
       </provider>
     </entry>
