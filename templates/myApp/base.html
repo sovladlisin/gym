@@ -2,6 +2,18 @@
 <html lang="en">
 <head>
     {%  load static %}
+
+    <!-- Main Quill library -->
+<script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+    <script src= "{% static 'myApp/image-resize.min.js' %}"></script>
+
+<!-- Theme included stylesheets -->
+<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{% static 'myApp/leg.css' %}">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/base.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/news.css' %}">
@@ -10,14 +22,18 @@
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/info.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/menu.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'myApp/page.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'myApp/quill.css' %}">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="icon" href="{% static 'myApp/images/logo.png' %}">
     <script src= "{% static 'myApp/menu.js' %}"></script>
     <script src= "{% static 'myApp/preload.js' %}"></script>
+        <script src= "{% static 'myApp/quill.js' %}"></script>
     <meta charset="UTF-8">
     <title>БОУ г. Омска Гимназия №139</title>
 </head>
 <body>
+{% block quill %}
+{% endblock %}
 <div class="spinner">
   <div class="rect1"></div>
   <div class="rect2"></div>
@@ -52,10 +68,8 @@
 </div>
 
 <div class="container">
-
         {% block data %}
         {% endblock %}
-
     <div class="side">
         <div class="title" style="background-color: #E15F34; border-color: #863026"><p>Навигация</p></div>
         <div class="blank">

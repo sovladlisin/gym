@@ -23,8 +23,39 @@
 }
 .data div.blank{
     width: 740px;
-    height: 400px;
+    min-height: 510px;
     margin: 10px 0 ;
     float: left;
     background-color: white;
+    /*background: url("images/test.png") center center no-repeat;*/
+    /*background-size: cover;*/
+}
+.data div.blank div.content{
+    width: 720px;
+    padding: 10px;
+
+}
+button.press{
+       float: left;
+    width: 740px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    background-color: #20967C;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button.press:hover{
+    background-color:rgb(225,95,52);
+}
+
+button.press p{
+        width: 740px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+        color: white;
 }

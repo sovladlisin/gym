@@ -1,12 +1,32 @@
 {% extends 'myApp/base.html' %}
 
+{% block quill %}
+    <div class="main-quill">
+        <div class="container">
+            <div id="editor"></div>
+            <button class="qpress"><a href="">Сохранить</a></button>
+        </div>
+    </div>
+{% endblock %}
 
 
 {% block data %}
+
     <div class="data">
-    <div class="title"><p>Содержание</p></div>
-    <div class="blank"></div>
+        <div class="title"><p>Содержание</p></div>
+        <div class="blank">
+            <div class="content">
+                  {{ data|safe }}
+            </div>
+
+
+        </div>
+        <button class="press"><p>Редактировать</p></button>
+
     </div>
+
+
+
 {% endblock %}
 
 
