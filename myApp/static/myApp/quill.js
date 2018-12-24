@@ -35,8 +35,8 @@ var toolbarOptions = [
 
             theme: 'snow',
         });
+         quill.clipboard.dangerouslyPasteHTML(0,$('.content').html());
          $('button.press').click(function(){
-             quill.clipboard.dangerouslyPasteHTML(0,$('.content').html());
              $('.main-quill').css("display","block");
          });
           $('div.main-quill').click(function(){
